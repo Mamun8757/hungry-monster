@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.notFound{
+    font-size: 50px;
+    margin-left: 22%;
+    margin-top: 2%;
+    color: blueviolet;
+}
+.modify-content{
+    width: 800px;
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+.btn{
+    background-color: tomato;
+}
