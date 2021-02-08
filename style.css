@@ -46,20 +46,20 @@ button#search{
     padding: 20px 0px;
     display: none;
 }
-.food-details{
+.food-info{
     width: 50%;
     margin: 20px auto;
 }
-.food-details img {
+.food-info img {
     width: 80%;
     border-radius: 18px;
 }
-.food-details h1{
+.food-info h1{
     padding-top: 10px;
     font-size: 28px;
     color: white;
 }
-.food-details h3{
+.food-info h3{
     padding: 3px 0px;
     font-size: 18px;
     text-align: left;
