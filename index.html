@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linked Google Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap" rel="stylesheet">
     <title>Hungry Monster</title>
     <!-- Linked Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -14,22 +14,25 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main class="container">
-        <div class="input-group mt-5 modify-content">
-          <input id="food" type="text" class="form-control p-3" placeholder="Search Your Meals..."/>
-          <button onclick="findMeal()" class="btn" type="button">Search</button>
-        </div>
-  
-        <section id="description" class="d-flex justify-content-center align-items-center">
+  <div class="container">
+    <form class="d-flex mt-5 mb-5">
+      <input id="searchFood" type="text" class="form-control" placeholder="Search Your Meals Here...">
+      <button id="search" type="button" class="btn ms-1">Search</button> 
+    </form>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="displayingFood">
 
-        </section>
-  
-        <section id="displayMeals" class="row container">
-          <div class="row text-center">
-            <h1>Display Meals Here....</h1>
-          </div>
-        </section>
-      </main>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div id="meals" class="d-flex flex-wrap">
+      </div>
+    </div>
+  </div>
 
 
 

@@ -3,17 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
-.notFound{
-    font-size: 50px;
-    margin-left: 22%;
-    margin-top: 2%;
-    color: blueviolet;
+body{
+    background-color: #C0C0C0;
+    font-family: 'Poppins', sans-serif;
 }
-.modify-content{
-    width: 800px;
-    margin-left: 20%;
-    margin-bottom: 5%;
+input#searchFood{
+    font-size: 25px;
+}
+button#search{
+    font-size: 25px;
 }
 .btn{
     background-color: tomato;
+    border-radius: 30px;
+    color: white;
+}
+.form-control{
+    border: 2px solid rgb(92, 148, 212);
+    border-radius: 30px;
+}
+.card{
+    width: 22%;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 12px;
+}
+.card h1{
+    font-size: 25px;
+    padding: 15px 5px;
+    text-align: center;
+}
+.card img{
+    border-radius: 20px 20px 0px 0px;
+}
+#displayingFood{
+    text-align: center;
+    background-color: #2C3539;
+    height: 50%;
+    width: 80%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px 0px;
+    display: none;
+}
+.food-details{
+    width: 50%;
+    margin: 20px auto;
+}
+.food-details img {
+    width: 80%;
+    border-radius: 18px;
+}
+.food-details h1{
+    padding-top: 10px;
+    font-size: 28px;
+    color: white;
+}
+.food-details h3{
+    padding: 3px 0px;
+    font-size: 18px;
+    text-align: left;
+    color: white;
 }
